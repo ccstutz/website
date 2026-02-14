@@ -83,13 +83,16 @@ details summary h2 {
 }
 
 details summary h2::after {
-    content: ' +';
-    font-size: 0.7em;
+    content: ' (expand)';
+    font-size: 0.5em;
     color: #999;
+    font-weight: normal;
 }
 
 details[open] summary h2::after {
-    content: ' −';
+    content: ' (collapse)';
+    font-size: 0.5em;
+    font-weight: normal;
 }
 
 .pub-list {
