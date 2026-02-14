@@ -54,12 +54,12 @@ h2 {
 }
 
 .headshot {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 20px;
-    display: block;
+    float: right;
+    margin: 0 0 15px 20px;
 }
 
 .pub-note {
