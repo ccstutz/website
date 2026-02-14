@@ -69,15 +69,26 @@ h2 {
     font-size: 0.95em;
 }
 
-.pub-list {
-    list-style-type: none;
-    padding-left: 0;
+details {
+    margin-bottom: 8px;
+    border-left: 3px solid #0066cc;
+    padding-left: 12px;
 }
 
-.pub-list li {
-    margin-bottom: 10px;
-    padding-left: 20px;
-    text-indent: -20px;
+details summary {
+    cursor: pointer;
+    font-size: 0.95em;
+    padding: 6px 0;
+}
+
+details summary:hover {
+    color: #0066cc;
+}
+
+.pub-detail {
+    padding: 8px 0 4px 0;
+    font-size: 0.93em;
+    color: #444;
 }
 
 footer {
